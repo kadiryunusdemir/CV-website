@@ -42,6 +42,39 @@
         .second_bg{
             background-color: #F9FBFD;
         }
+
+        .hover_container {
+            position: relative;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #8428F8;
+        }
+
+        .hover_container:hover .overlay {
+            opacity: 0.9;
+        }
+
+        .image_text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
     </style>
 </head>
 <body>
@@ -67,7 +100,7 @@
         <div class="container text-center" id="AboutMe">
             <h1>Student Assistant</h1>
             <p>Passionate and hardworking Computer Eng. student who also work for ITU.</p>
-            <img src="/img/test.png" alt="Kadir Yunus Demir">           
+            <img src="/img/myself.png" alt="Kadir Yunus Demir" width="240px" class="rounded">           
             <div class="container my-1">
                 <div class="row">
                     <div class="col text-end border-end"><p>Phone</p></div>
@@ -104,9 +137,9 @@
                     </div>
                     <div class="col-4 order-md-1 text-end">
                         <p>01/2022 - Present</p>
+                        <p>IT STUDENT ASSISTANT</p>
                     </div>
                     <div class="col order-md-3">
-                        <p>IT STUDENT ASSISTANT</p>
                         <p>ITU BIDB</p>
                         <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</P>
                     </div>
@@ -121,9 +154,9 @@
                     </div>
                     <div class="col-4 order-md-1 text-end">
                         <p>01/2022 - Present</p>
+                        <p>IT STUDENT ASSISTANT</p>
                     </div>
                     <div class="col order-md-3">
-                        <p>IT STUDENT ASSISTANT</p>
                         <p>ITU BIDB</p>
                         <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</P>
                     </div>
@@ -175,6 +208,55 @@
             <div class="container border-bottom text-center">
                 <h1>EDUCATION</h1>
             </div>
+
+        </div>
+        </div>
+    </div>
+
+    <div class="container-fluid second_bg my-3">
+        <div class="container" id="Projects">
+            <div class="container border-bottom text-center">
+                <h1>PROJECTS</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="hover_container">
+                        <img src="/img/myself.png" alt="Kadir Yunus Demir" class="image rounded">
+                        <div class="overlay">
+                          <div class="image_text">
+                            <h3>asd</h3>
+                            <p>aasfdsfsdf</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="hover_container">
+                        <img src="/img/myself.png" alt="Kadir Yunus Demir" class="image rounded">
+                        <div class="overlay">
+                            <div class="image_text">
+                                <h3>asd</h3>
+                                <p>aasfdsfsdf</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="hover_container">
+                        <img src="/img/myself.png" alt="Kadir Yunus Demir" class="image rounded">
+                        <div class="overlay">
+                            <div class="image_text">
+                                <h3>asd</h3>
+                                <p>aasfdsfsdf</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
         </div>
     </div>
 </body>
