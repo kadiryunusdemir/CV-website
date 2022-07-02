@@ -16,10 +16,20 @@
 
         h1 {
             font-weight: 800;
+            font-size: 26px;
+            color: #141C3A;
+        }
+
+        h2 {
+            font-weight: 300;
+            font-size: 20px;
+            color: #141C3A;
         }
 
         p {
             font-weight: 300;
+            font-size: 17px;
+            color: #535E88;
         }
 
         .container{
@@ -75,20 +85,24 @@
             left: 0;
         }
 
+        .image_text * {
+            color: white;
+        }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-md border-bottom">
-        <div class="container-fluid">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
-                <a href="#" class="navbar-brand" >Kadir Yunus Demir</a>
+            <a href="#AboutMe" class="d-none d-md-block navbar-brand" ><h1>Kadir Yunus Demir</h1></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
                 <div class="navbar-nav">
                     <a href="#AboutMe" class="nav-item nav-link">About Me</a>
                     <a href="#Experience" class="nav-item nav-link">Experience</a>
                     <a href="#Skills" class="nav-item nav-link">Skills</a>
+                    <a href="#Education" class="nav-item nav-link">Education</a>
                     <a href="#Projects" class="nav-item nav-link">Projects</a>
                     <a href="#CV" class="nav-item nav-link">CV</a>
                 </div>
@@ -97,25 +111,25 @@
     </nav>
 
     <div class="container-fluid my-3">
-        <div class="container text-center" id="AboutMe">
-            <h1>Student Assistant</h1>
+        <div class="container text-center">
+            <h1 style="font-size: 48px;">Student Assistant</h1>
             <p>Passionate and hardworking Computer Eng. student who also work for ITU.</p>
             <img src="/img/myself.png" alt="Kadir Yunus Demir" width="240px" class="rounded">           
             <div class="container my-1">
                 <div class="row">
-                    <div class="col text-end border-end"><p>Phone</p></div>
-                    <div class="col text-start"><p>Email</p></div>
+                    <div class="col-6 text-end border-end"><h2>Phone</h2></div>
+                    <div class="col-6 text-start"><h2>Email</h2></div>
                 </div>
                 <div class="row">
-                    <div class="col text-end border-end"><p>+90 553 157 34 11</p></div>
-                    <div class="col text-start"><p>demirk19@itu.edu.tr</p></div>
+                    <div class="col-6 text-end border-end"><p>+90 5531573411</p></div>
+                    <div class="col-6 text-start"><p>demirk19@itu.edu.tr</p></div>
                 </div>
             </div>
         </div>
     </div>
     
     <div class="container-fluid second_bg my-3">
-        <div class="container text-center">
+        <div class="container text-center" id="AboutMe">
             <h1>Hi, <span class="span_class">I'm Kadir</span>. Nice to meet you.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi, odio voluptas atque earum eveniet quia, modi laudantium aperiam quibusdam sapiente illum dolorem repellat, totam pariatur! Nisi blanditiis recusandae architecto.</p>
         </div>
@@ -136,12 +150,12 @@
                         </div>                 
                     </div>
                     <div class="col-4 order-md-1 text-end">
-                        <p>01/2022 - Present</p>
+                        <h2>01/2022 - Present</h2>
                         <p>IT STUDENT ASSISTANT</p>
                     </div>
                     <div class="col order-md-3">
-                        <p>ITU BIDB</p>
-                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</P>
+                        <h2>ITU BIDB</h2>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
                     </div>
                 </div>
                 <div class="row my-3">
@@ -153,12 +167,12 @@
                         </div>                 
                     </div>
                     <div class="col-4 order-md-1 text-end">
-                        <p>01/2022 - Present</p>
+                        <h2>01/2022 - Present</h2>
                         <p>IT STUDENT ASSISTANT</p>
                     </div>
                     <div class="col order-md-3">
-                        <p>ITU BIDB</p>
-                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</P>
+                        <h2>ITU BIDB</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
                     </div>
                 </div>
             </div>
@@ -173,7 +187,7 @@
 
             <div class="container d-flex" style="max-width: 1113px">
                 <div class="container my-3">
-                    <p>HTML5</h3>
+                    <h2>HTML5</h2>
                     <div class="row">
                         <div class="col">
                             <div class="progress">
@@ -187,7 +201,7 @@
                 </div>
     
                 <div class="container my-3 d-none d-md-block">
-                    <p>C++</h3>
+                    <h2>C++</h2>
                     <div class="row">
                         <div class="col">
                             <div class="progress">
@@ -209,7 +223,6 @@
                 <h1>EDUCATION</h1>
             </div>
 
-        </div>
         </div>
     </div>
 
@@ -247,17 +260,22 @@
                         <img src="/img/myself.png" alt="Kadir Yunus Demir" class="image rounded">
                         <div class="overlay">
                             <div class="image_text">
-                                <h3>asd</h3>
+                                <h2>asd</h2>
                                 <p>aasfdsfsdf</p>
                               </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            
         </div>
         </div>
     </div>
+
+    <div class="container-fluid second_bg my-3 d-flex align-items-center" style="height: 100px;">
+        <div class="container text-center" id="CV"> 
+            <a href="cv.pdf" download="kadir-yunus-demir-cv.pdf" class="span_class"><h1 class="span_class">DOWNLOAD CV</h1></a>
+        </div>
+    </div>
+
 </body>
 </html>
