@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 26px;
+    color: #141C3A;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #141C3A;
+}
+
+p {
+    font-weight: 300;
+    font-size: 17px;
+    color: #535E88;
+}
+
+.container{
+    max-width: 1532px;
+}
+
+.about_me{
+    max-width: 941px;
+    max-height: 527px;
+}
+
+.span_class{
+    color: #8428F8;
+}
+
+.theme_bg{
+    background-color: #8428F8;
+}
+
+.second_bg{
+    background-color: #F9FBFD;
+}
+
+/* image hover rules start */
+.hover_container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8428F8;
+    border-radius: 11px;
+}
+
+.hover_container:hover .overlay {
+    opacity: 0.9;
+}
+
+.image_text {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.image_text * {
+    color: white;
+}
+/* image hover rules end*/
+
+.timeline_dot {
+    font-size: 10px;
+    background-color: #8428F8;
+}
+
+@media screen and (min-width: 768px) {
+    .horizontal_line {
+        width: 95% !important;
+        border-bottom: 1px solid #DCDCDE!important;
+        margin-left: 5px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .horizontal_line {
+        height: 95% !important;
+        border-right: 1px solid #DCDCDE !important;
+    }
+}
