@@ -92,11 +92,16 @@
         }
         /* image hover rules */
 
+        .timeline_dot {
+            font-size: 9px;
+            background-color: #8428F8;
+        }
+
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-md border-bottom">
-        <div class="container">
+        <div class="container" style="max-width: 948px;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -114,12 +119,12 @@
         </div>
     </nav>
 
-    <div class="container-fluid my-3">
-        <div class="container text-center" style="max-width: 941px;">
+    <div class="container-fluid">
+        <div class="container py-5 text-center" style="max-width: 941px;">
             <h1 style="font-size: 48px;">Student Assistant</h1>
             <p>Passionate and hardworking Computer Eng. student who also work for ITU.</p>
-            <img src="./img/myself.png" alt="Kadir Yunus Demir" width="240px" class="rounded">           
-            <div class="container my-1">
+            <img src="./img/myself.png" alt="Kadir Yunus Demir" width="240px" class="rounded mb-3">           
+            <div class="container">
                 <div class="row">
                     <div class="col-6 text-end border-end"><h2>Phone</h2></div>
                     <div class="col-6 text-start"><h2>Email</h2></div>
@@ -132,22 +137,22 @@
         </div>
     </div>
     
-    <div class="container-fluid second_bg my-3">
-        <div class="container text-center" id="AboutMe" style="max-width: 609px;">
+    <div class="container-fluid second_bg">
+        <div class="container py-5 text-center" id="AboutMe" style="max-width: 609px;">
             <h1>Hi, <span class="span_class">I'm Kadir</span>. Nice to meet you.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi, odio voluptas atque earum eveniet quia, modi laudantium aperiam quibusdam sapiente illum dolorem repellat, totam pariatur! Nisi blanditiis recusandae architecto.</p>
         </div>
     </div>
 
-    <div class="container-fluid my-3">
-        <div class="container" id="Experience">
-            <div class="container border-bottom text-center">
+    <div class="container-fluid">
+        <div class="container py-3" id="Experience">
+            <div class="container py-4 border-bottom text-center">
                 <h1>EXPERIENCE</h1>
             </div>
-            <div class="container" style="max-width: 800px;">
-                <div class="row my-3">
+            <div class="container py-5" style="max-width: 800px;">
+                <div class="row">
                     <div class="col-2 order-md-2 text-center">
-                        <span class="badge border-0 rounded-circle theme_bg">&nbsp;</span>
+                        <span class="badge border-0 rounded-circle timeline_dot">&nbsp;</span>
                         <div class="row my-2" style="height: 80%;">
                             <div class="col-6 border-end"></div>
                             <div class="col-6"></div>
@@ -162,9 +167,9 @@
                         <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
                     </div>
                 </div>
-                <div class="row my-3">
+                <div class="row">
                     <div class="col-2 order-md-2 text-center">
-                        <span class="badge border-0 rounded-circle theme_bg">&nbsp;</span>
+                        <span class="badge border-0 rounded-circle timeline_dot">&nbsp;</span>
                         <div class="row my-2" style="height: 80%;">
                             <div class="col-6 border-end"></div>
                             <div class="col-6"></div>
@@ -183,18 +188,18 @@
         </div>
     </div>
 
-    <div class="container-fluid my-3">
+    <div class="container-fluid">
         <div class="container" id="Skills">
-            <div class="container border-bottom border-top text-center">
+            <div class="container py-4 border-bottom border-top text-center">
                 <h1>SKILLS</h1>
             </div>
 
-            <div class="container d-flex" style="max-width: 1113px">
-                <div class="container my-3">
+            <div class="container py-5 d-flex" style="max-width: 1113px">
+                <div class="container">
                     <h2>HTML5</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="progress">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -205,7 +210,7 @@
                     <h2>CSS3</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="progress">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -216,7 +221,7 @@
                     <h2>Bootstrap</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="progress">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -226,11 +231,11 @@
                     </div>   
                 </div>
     
-                <div class="container my-3 d-none d-md-block">
+                <div class="container d-none d-md-block">
                     <h2>C++</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="progress">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -241,7 +246,7 @@
                     <h2>Python</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="progress">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -252,7 +257,7 @@
                     <h2>Linux</h2>
                     <div class="row">
                         <div class="col">
-                            <div class="progress">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -265,22 +270,22 @@
         </div>
     </div>
 
-    <div class="container-fluid second_bg my-3">
+    <div class="container-fluid second_bg">
         <div class="container" id="Education">
-            <div class="container border-bottom text-center">
+            <div class="container py-4 border-bottom text-center">
                 <h1>EDUCATION</h1>
             </div>
 
-            <div class="container" style="max-width: 1343px;">
+            <div class="container py-5" style="max-width: 1343px;">
                 <div class="row my-3">
                     <div class="col-2 col-md-12 order-md-2">
                         <div class="row row-cols-1 row-cols-md-2" style="height: 100%;">
                             <div class="col d-md-flex align-items-center">
-                                <span class="badge border-0 rounded-circle theme_bg">&nbsp;</span>
+                                <span class="badge border-0 rounded-circle timeline_dot">&nbsp;</span>
                                 <div class="row my-2 border-bottom" style="width: 80%;"></div>                 
                             </div>
                             <div class="col d-md-flex align-items-center">
-                                <span class="badge border-0 rounded-circle theme_bg">&nbsp;</span>
+                                <span class="badge border-0 rounded-circle timeline_dot">&nbsp;</span>
                                 <div class="row my-2 border-bottom" style="width: 80%;"></div>                 
                             </div>
                         </div>
@@ -318,13 +323,13 @@
     
     <div class="container-fluid my-3">
         <div class="container" id="Projects">
-            <div class="container border-bottom text-center">
+            <div class="container py-4 border-bottom text-center">
                 <h1>PROJECTS</h1>
             </div>
             
-            <div class="container" style="max-width: 1158px;">
+            <div class="container py-5" style="max-width: 1158px;">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="hover_container">
                             <img src="./img/project01.png" alt="Kadir Yunus Demir" class="image rounded">
                             <div class="overlay">
@@ -335,7 +340,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 py-4 py-md-0">
                         <div class="hover_container">
                             <img src="./img/project02.png" alt="Kadir Yunus Demir" class="image rounded">
                             <div class="overlay">
@@ -346,7 +351,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="hover_container">
                             <img src="./img/project03.png" alt="Kadir Yunus Demir" class="image rounded">
                             <div class="overlay">
@@ -362,7 +367,7 @@
         </div>
     </div>
 
-    <div class="container-fluid second_bg my-3 d-flex align-items-center" style="height: 100px;">
+    <div class="container-fluid second_bg d-flex align-items-center" style="height: 250px;">
         <div class="container text-center" id="CV"> 
             <a href="cv.pdf" download="kadir-yunus-demir-cv.pdf" class="span_class"><h1 class="span_class">DOWNLOAD CV</h1></a>
         </div>
