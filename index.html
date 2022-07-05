@@ -84,7 +84,7 @@
         .image_text {
             position: absolute;
             bottom: 0;
-            left: 0;
+            left: 20px;
         }
 
         .image_text * {
@@ -93,24 +93,25 @@
         /* image hover rules */
 
         .timeline_dot {
-            font-size: 9px;
+            font-size: 10px;
             background-color: #8428F8;
         }
-        @media screen and (min-width: 576px) {
+
+        @media screen and (min-width: 768px) {
             .horizontal_line {
                 width: 100% !important;
                 border-bottom: 1px solid #DCDCDE!important;
                 margin-left: 5px !important;
             }
         }
-        @media screen and (max-width: 576px) {
+
+        @media screen and (max-width: 768px) {
             .horizontal_line {
                 height: 90% !important;
                 border-right: 1px solid #DCDCDE !important;
                 align-items: center;
             }
         }
-
     </style>
 </head>
 <body>
@@ -136,7 +137,7 @@
     <div class="container-fluid">
         <div class="container py-5 text-center" style="max-width: 941px;">
             <h1 style="font-size: 48px;">Student Assistant</h1>
-            <p>Passionate and hardworking Computer Eng. student who also work for ITU.</p>
+            <p>Passionate and hardworking Computer Engineering student who has interest about web and game development</p>
             <img src="./img/myself.png" alt="Kadir Yunus Demir" width="240px" class="rounded mb-3">           
             <div class="container">
                 <div class="row">
@@ -154,14 +155,14 @@
     <div class="container-fluid second_bg">
         <div class="container py-5 text-center" id="AboutMe" style="max-width: 609px;">
             <h1>Hi, <span class="span_class">I'm Kadir</span>. Nice to meet you.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi, odio voluptas atque earum eveniet quia, modi laudantium aperiam quibusdam sapiente illum dolorem repellat, totam pariatur! Nisi blanditiis recusandae architecto.</p>
+            <p>"I want to be a man of science" I told my relatives when I was about 5 years old. Then it occurred to me that “scientist” was a more appropriate term in the world. While my relatives rejoiced over my childish fantasy, I discovered my genuine goals with “MythBusters” TV series. I aspire to be an inventor, a maker, a constructor. After encountering a computer and the internet, my intentions evolved once again, but I still have the spirit of a five-year-old child. Now, I am pursuing a bachelor's degree in computer engineering and aspire to work in cutting-edge and innovative industries such as web development, game development, computer graphics, simulation, AR-VR and AI-ML.</p>
         </div>
     </div>
 
     <div class="container-fluid">
         <div class="container py-3" id="Experience">
             <div class="container py-4 border-bottom text-center">
-                <h1>EXPERIENCE</h1>
+                <h1 class="mb-0">EXPERIENCE</h1>
             </div>
             <div class="container py-5" style="max-width: 800px;">
                 <div class="row">
@@ -172,13 +173,13 @@
                             <div class="col-6"></div>
                         </div>                 
                     </div>
-                    <div class="col-5 order-md-1 text-end">
+                    <div class="col-5 order-md-1 text-md-end">
                         <h2>01/2022 - Present</h2>
                         <p>IT STUDENT ASSISTANT</p>
                     </div>
                     <div class="col order-md-3">
                         <h2>ITU BIDB</h2>
-                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -189,7 +190,7 @@
                             <div class="col-6"></div>
                         </div>                 
                     </div>
-                    <div class="col-5 order-md-1 text-end">
+                    <div class="col-5 order-md-1 text-md-end">
                         <h2>01/2022 - Present</h2>
                         <p>IT STUDENT ASSISTANT</p>
                     </div>
@@ -205,63 +206,63 @@
     <div class="container-fluid">
         <div class="container" id="Skills">
             <div class="container py-4 border-bottom border-top text-center">
-                <h1>SKILLS</h1>
+                <h1 class="mb-0">SKILLS</h1>
             </div>
 
-            <div class="container py-5 d-flex" style="max-width: 1113px">
+            <div class="container py-5 d-md-flex" style="max-width: 1113px">
                 <div class="container">
                     <h2>HTML5</h2>
                     <div class="row">
                         <div class="col">
                             <div class="progress" style="height: 6px;">
-                                <div class="progress-bar theme_bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar theme_bg" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="col-2 ">
-                            <p>80%</p>
+                        <div class="col-2">
+                            <p>75%</p>
                         </div>
                     </div>
                     <h2>CSS3</h2>
                     <div class="row">
                         <div class="col">
                             <div class="progress" style="height: 6px;">
-                                <div class="progress-bar theme_bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar theme_bg" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="col-2 ">
-                            <p>80%</p>
+                        <div class="col-2">
+                            <p>75%</p>
                         </div>
                     </div>
                     <h2>Bootstrap</h2>
                     <div class="row">
                         <div class="col">
                             <div class="progress" style="height: 6px;">
+                                <div class="progress-bar theme_bg" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <p>75%</p>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="container">
+                    <h2>C++</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="progress" style="height: 6px;">
                                 <div class="progress-bar theme_bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col-2 ">
                             <p>80%</p>
                         </div>
-                    </div>   
-                </div>
-    
-                <div class="container d-none d-md-block">
-                    <h2>C++</h2>
-                    <div class="row">
-                        <div class="col">
-                            <div class="progress" style="height: 6px;">
-                                <div class="progress-bar theme_bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="col-2 ">
-                            <p>90%</p>
-                        </div>
                     </div>
                     <h2>Python</h2>
                     <div class="row">
                         <div class="col">
                             <div class="progress" style="height: 6px;">
-                                <div class="progress-bar theme_bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar theme_bg" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col-2 ">
@@ -272,7 +273,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="progress" style="height: 6px;">
-                                <div class="progress-bar theme_bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar theme_bg" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col-2 ">
@@ -287,31 +288,31 @@
     <div class="container-fluid second_bg">
         <div class="container" id="Education">
             <div class="container py-4 border-bottom text-center">
-                <h1>EDUCATION</h1>
+                <h1 class="mb-0">EDUCATION</h1>
             </div>
 
-            <div class="container py-5" style="max-width: 1343px;">
+            <div class="container py-4" style="max-width: 1343px;">
                 <div class="row my-3">
                     <div class="col-2 col-md-12 order-md-2">
-                        <div class="row row-cols-1 row-cols-md-2 text-center" style="height: 100%;">
-                            <div class="col vertical_line d-md-flex">
+                        <div class="row row-cols-1 row-cols-md-2" style="height: 100%;">
+                            <div class="col mb-3 vertical_line d-md-flex text-center">
                                 <span class="badge border-0 rounded-circle timeline_dot">&nbsp;</span>
-                                <div class="row my-2 horizontal_line" style="width: 80%;"></div>                 
+                                <div class="row my-2 horizontal_line" style="width: 90%;"></div>                 
                             </div>
-                            <div class="col vertical_line d-md-flex">
+                            <div class="col mb-3 vertical_line d-md-flex text-center">
                                 <span class="badge border-0 rounded-circle timeline_dot">&nbsp;</span>
-                                <div class="row my-2 horizontal_line" style="width: 80%;"></div>                 
+                                <div class="row my-2 horizontal_line" style="width: 90%;"></div>                 
                             </div>
                         </div>
                     </div>
                     
                     <div class="col-4 col-md-12 order-md-1">
                         <div class="row row-cols-1 row-cols-md-2" style="height: 100%;">
-                            <div class="col text-end text-md-start">
+                            <div class="col mb-3 text-md-start">
                                 <h2>2019 - Present</h2>
                                 <p>Bachelor's Degree</p>
                             </div>
-                            <div class="col text-end text-md-start">
+                            <div class="col mb-3 text-md-start">
                                 <h2>2015 - 2019  </h2>
                                 <p>Science Highschool</p>
                             </div>
@@ -320,11 +321,11 @@
                     
                     <div class="col-6 col-md-12 order-md-3 py-md-4">
                         <div class="row row-cols-1 row-cols-md-2">
-                            <div class="col">
+                            <div class="col mb-5">
                                 <h2>ISTANBUL TECHNICAL UNIVERSITY</h2>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
                             </div>
-                            <div class="col">
+                            <div class="col mb-5">
                                 <h2>YUKSEL-ILHAN ALANYALI SCIENCE HIGHSCHOOL</h2>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae illum iste quisquam autem assumenda aliquid voluptatibus eveniet maiores inventore incidunt. Quam ipsum illo aperiam asperiores iste. Debitis ea recusandae rem.</p>
                             </div>
@@ -338,7 +339,7 @@
     <div class="container-fluid my-3">
         <div class="container" id="Projects">
             <div class="container py-4 border-bottom text-center">
-                <h1>PROJECTS</h1>
+                <h1 class="mb-0">PROJECTS</h1>
             </div>
             
             <div class="container py-5" style="max-width: 1158px;">
@@ -348,8 +349,8 @@
                             <img src="./img/project01.png" alt="Kadir Yunus Demir" class="image rounded">
                             <div class="overlay">
                               <div class="image_text">
-                                <h3>asd</h3>
-                                <p>aasfdsfsdf</p>
+                                <h1>AR</h1>
+                                <p>test</p>
                               </div>
                             </div>
                         </div>
@@ -359,8 +360,8 @@
                             <img src="./img/project02.png" alt="Kadir Yunus Demir" class="image rounded">
                             <div class="overlay">
                                 <div class="image_text">
-                                    <h3>asd</h3>
-                                    <p>aasfdsfsdf</p>
+                                    <h1>Web Development</h1>
+                                    <p>test</p>
                                   </div>
                             </div>
                         </div>
@@ -370,8 +371,8 @@
                             <img src="./img/project03.png" alt="Kadir Yunus Demir" class="image rounded">
                             <div class="overlay">
                                 <div class="image_text">
-                                    <h2>asd</h2>
-                                    <p>aasfdsfsdf</p>
+                                    <h1>Game Development</h1>
+                                    <p>test</p>
                                   </div>
                             </div>
                         </div>
@@ -383,7 +384,7 @@
 
     <div class="container-fluid second_bg d-flex align-items-center" style="height: 250px;">
         <div class="container text-center" id="CV"> 
-            <a href="cv.pdf" download="kadir-yunus-demir-cv.pdf" class="span_class"><h1 class="span_class">DOWNLOAD CV</h1></a>
+            <a href="cv.pdf" download="kadir-yunus-demir-cv.pdf" class="span_class"><h1 class="span_class mb-0"">DOWNLOAD CV</h1></a>
         </div>
     </div>
 
